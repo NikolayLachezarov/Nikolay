@@ -95,7 +95,16 @@ from math import sqrt
 def perimator(point1, point2, point3):
     # I will need to calaculate the distance of the actuall points 
     # the formula d = √(xy - x1)^2 + (y2 - y1)^2 will do it
-    
+    d1 = sqrt((point[1][0] - point[0][0]) ** 2 +
+              (point[1][1] - point[0][1]) ** 2)
+    d2 = sqrt((point[2][0] - point[1][0]) ** 2 +
+              (point[2][1] - point[1][1]) ** 2)
+    d3 = sqrt((point[0][0] - point[1][0]) ** 2 +
+              (point[0][1] - point[1][1]) ** 2)
+    return d1 + d2 + d3
+
+
+print(perimator([[15, 7], [5, 22], [11, 1]]))
 
 
 
