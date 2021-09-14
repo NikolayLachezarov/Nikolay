@@ -90,7 +90,7 @@
 #Challenge for Nikolay
 # https://edabit.com/challenge/fNQEi9Y2adsERgn98
 
-
+def perimator(point1, point2, point3):
 
 
 
