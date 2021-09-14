@@ -103,7 +103,7 @@ def perimator(point1, point2, point3):
               (point[0][1] - point[1][1]) ** 2)
     return d1 + d2 + d3
 
-
+# I am stuck AHHHHHHHHHHHHHHHHHHHH
 print(perimator([[15, 7], [5, 22], [11, 1]]))
 
 
