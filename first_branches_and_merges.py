@@ -90,7 +90,12 @@
 #Challenge for Nikolay
 # https://edabit.com/challenge/fNQEi9Y2adsERgn98
 
+from math import sqrt
+
 def perimator(point1, point2, point3):
+    # I will need to calaculate the distance of the actuall points 
+    # the formula d = √(xy - x1)^2 + (y2 - y1)^2 will do it
+    
 
 
 
